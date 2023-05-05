@@ -14,9 +14,13 @@
   <img src="https://img.shields.io/badge/price-%240-brightgreen" alt="price 0 USD"/>
   <img src="https://img.shields.io/badge/swagger-valid-brightgreen" alt="swagger valid"/>
   <img src="https://img.shields.io/badge/translated-0%25-red" alt="translated 0%"/>
-</div>
 
 <br>
+
+![Source image](./bestcodeeversource.jpg)
+Source: [r/ProgrammerHumor post](https://www.reddit.com/r/ProgrammerHumor/comments/136wevi/our_cs_senior_class_learned_some_great_coding)
+
+</div>
 
 Generates an `Is Even` program—the most complex and important type of program any programmer would want in their arsenal.
 
