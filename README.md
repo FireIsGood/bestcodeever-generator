@@ -1,4 +1,13 @@
-<h1 align="center">bestcodeever-generator</h1>
+<h1 align="center">✨bestcodeever Generator✨</h1>
+
+<div align="center">
+
+> Maybe you should stick to basic math problems and leave the programming to the big boys.
+>
+> ~ [roastedby.ai](https://www.roastedby.ai)
+
+</div>
+
 
 <div align="center">
   <img src="https://img.shields.io/badge/coverage-%24100%25-brightgreen" alt="coverage 100 percent"/>
@@ -7,7 +16,9 @@
   <img src="https://img.shields.io/badge/translated-0%25-red" alt="translated 0%"/>
 </div>
 
-Generates an `Is Even` program.
+<br>
+
+Generates an `Is Even` program—the most complex and important type of program any programmer would want in their arsenal.
 
 Examples output files can be found in `/examples`
 
