@@ -9,7 +9,7 @@
 
 Generates an `Is Even` program.
 
-I don't know what you expected from a meme repo.
+Examples output files can be found in `/examples`
 
 ## Requirements
 
@@ -31,3 +31,7 @@ No.
 ## Contributing
 
 No.
+
+<br><br><br><br><br>
+
+I don't know what you expected from a meme repo.
