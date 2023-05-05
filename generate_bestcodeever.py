@@ -1,6 +1,6 @@
 # Creates the best code ever
 
-SUPPORTED_LENGTH = 50
+SUPPORTED_LENGTH = int(input("How many numbers would you like to support? "))
 TAB_SIZE = 4
 TAB_CHARACTER = ' '
 
@@ -21,9 +21,9 @@ put('def checkWhetherANumberIsEvenOrOddAndReturnOddOrEven(number: int):')
 for i in range(1, SUPPORTED_LENGTH + 2):
 
     # Check for length == 1 edge case
-    if SUPPORTED_LENGTH == 1:
+    if SUPPORTED_LENGTH == 1 and i == SUPPORTED_LENGTH + 2:
         put("answer = ' '.join(('too','big','could','not','compute'))", 1)
-        put("return answer", 2)
+        put("return answer", 1)
         break
 
     # Check for end or starting cases
@@ -51,10 +51,9 @@ put('')
 
 # Print list to the file
 
-with open("bestcodeever.py", "w+") as file_out:
+file_name = f'bestcodeever_upto{SUPPORTED_LENGTH}.py'
+
+with open(file_name, "w+") as file_out:
     file_out.writelines('\n'.join(output_list))
-    print(file_out.read())
 
-# Debug print
-
-# print('\n'.join(output_list))
+print(f'Wrote to file {file_name}')
